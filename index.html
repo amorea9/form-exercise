@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form exercise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>Form exercise</h1>
+      <form name="exercise" method="post" data-netlify="true" autocomplete="on">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="John" />
+        </label>
+        <label
+          >Email
+          <input type="email" name="email" placeholder="john@gmail.com" />
+        </label>
+        <label>
+          Select a favourite ice-cream flavour
+          <select name="ice-cream">
+            <option>Chocolate</option>
+            <option>Vanilla</option>
+            <option>Strawberry</option>
+          </select>
+        </label>
+        <label>
+          When is your birthday?
+          <input type="date" name="birthday" />
+        </label>
+        <label>
+          Upload a funny picture
+          <input type="file" name="picture" />
+        </label>
+      </form>
+      <button type="submit">Done</button>
+    </main>
+    <footer></footer>
+  </body>
+</html>
